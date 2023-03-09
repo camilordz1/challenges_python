@@ -2,7 +2,7 @@
 # in an undirected graph when given the adjacency matrix 
 # and the two nodes."""
 #
-# Refence: https://edabit.com/challenge/3DAkZHv2LZjgqWbvW
+# Reference: https://edabit.com/challenge/3DAkZHv2LZjgqWbvW
 
 def is_adjacent(matrix,node1,node2):
     if matrix[node1][node2] == 1:
