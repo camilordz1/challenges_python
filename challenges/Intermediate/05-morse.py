@@ -65,8 +65,6 @@ def decode_morse(message):
     return "".join(message).replace("  "," ")
 
 if __name__ == '__main__':
-    
+
     print(">>>",encode_morse("EDABBIT CHALLENGE"))
     print(">>>",decode_morse(encode_morse("EDABBIT CHALLENGE")))
-
-

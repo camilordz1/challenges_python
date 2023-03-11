@@ -21,7 +21,6 @@ def sum_odd_and_even(lst):
     even = [number for number in lst if number%2 == 0]
     return [sum(even), sum(odd)]
 
-
 if __name__ ==  "__main__":
     print(sum_odd_and_even([1, 2, 3, 4, 5, 6]))
 
